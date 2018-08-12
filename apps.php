@@ -17,15 +17,16 @@
       <button class="delete" aria-label="close"></button>
     </header>
     <section class="modal-card-body">
-      <pre>
-      	<code class="python">
-      		<?= embed_github_gist('13f7c54a54d25918135c86e27469898a'); ?>
-      	</code>
-      </pre>
+      
     </section>
     <footer class="modal-card-foot">
     </footer>
   </div>
 </div>
+<pre>
+      	<code class="python">
+      		<?= embed_github_gist('13f7c54a54d25918135c86e27469898a'); ?>
+      	</code>
+      </pre>
 </body>
 </html>
