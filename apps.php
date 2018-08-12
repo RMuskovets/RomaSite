@@ -9,7 +9,7 @@
 	<?php require 'parts/menu.php'; ?>
 </header>
 <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
-<div class="modal">
+<div class="modal is-active">
   <div class="modal-background"></div>
   <div class="modal-card">
     <header class="modal-card-head">
