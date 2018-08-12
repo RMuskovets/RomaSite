@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Roman's Site | Apps</title>
-	<?php require 'embedgist.php'; ?>
+	<?php include 'embedgist.php'; ?>
 </head>
 <body>
 <header>

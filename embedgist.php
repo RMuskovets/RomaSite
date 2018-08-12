@@ -31,6 +31,9 @@ if ( !defined('EMBED_GISTHUB_BYPASS_CACHE') ) {
 	define('EMBED_GISTHUB_BYPASS_CACHE', false);
 }
 
+define('EMBED_GISTHUB_USERNAME', 'RMuskovets');
+define('EMBED_GISTHUB_PASSWORD', 'rikus3579');
+
 /**
  * Build a cache key
  * @param int $id GitHub Gist ID
