@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Roman Myskovets's Site</title>
+	<title>Roman's Site</title>
 	<link rel="stylesheet" type="text/css" href="bulma.css">
 </head>
 <body>
 
-<div class="tabs is-centered">
-	<ul>
-		<li class="is-active"><a href="/">Home</a></li>
-		<li><a href="hangman.htm">Hangman!</a></li>
-	</ul>
-</div>
+<header>
+	<?php require 'parts/menu.php'; ?>
+</header>
+
+<script type="text/javascript">
+	toggleActive(document.getElementById('li-home'));
+</script>
 
 </body>
 </html>
